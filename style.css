@@ -80,33 +80,3 @@ footer {
   background-color: #e5e7eb;
   color: #555;
 }
-.publications {
-  margin-top: 4rem;
-  width: 80%;
-  max-width: 800px;
-}
-
-.publications h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.pub-category {
-  margin-bottom: 2rem;
-}
-
-.pub-category h3 {
-  color: #aad;
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-}
-
-.pub-category ul {
-  list-style: none;
-  padding-left: 1rem;
-}
-
-.pub-category ul li {
-  margin-bottom: 0.5rem;
-  line-height: 1.5;
-}
