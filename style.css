@@ -1,82 +1,110 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background-color: #1f1f2f;
+  color: #fff;
 }
 
 header {
-  background-color: #1f2937;
-  color: white;
-  padding: 2rem 0;
-  text-align: center;
+  background-color: #111;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-  border: 4px solid white;
+.nav h1 {
+  color: #ccc;
+  margin: 0;
 }
 
-header h1 {
-  margin: 0.5rem 0;
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
 }
 
-header p {
-  margin-bottom: 1rem;
-  font-style: italic;
-}
-
-nav a {
-  margin: 0 1rem;
-  color: #93c5fd;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.container {
-  max-width: 800px;
-  margin: auto;
-  padding: 0 1rem;
+.nav ul li {
+  cursor: pointer;
+  color: #fff;
 }
 
 main {
-  padding: 2rem 1rem;
-  max-width: 800px;
-  margin: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-main section {
-  margin-bottom: 2.5rem;
-}
-
-h2 {
-  color: #1e3a8a;
-  margin-bottom: 0.5rem;
-}
-
-ul {
-  list-style-type: disc;
-  margin-left: 1.5rem;
-}
-
-footer {
+.profile {
   text-align: center;
-  padding: 1rem;
-  background-color: #e5e7eb;
-  color: #555;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.profile h2 {
+  margin: 0.5rem 0;
+}
+
+.profile .icons img {
+  width: 28px;
+  margin: 0.5rem;
+}
+
+.cv {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #5ad;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.bio {
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.details div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.skills {
+  margin-top: 3rem;
+  width: 80%;
+}
+
+.skill-bars {
+  margin-top: 1rem;
+}
+
+.bar {
+  background: #333;
+  border-radius: 20px;
+  height: 12px;
+  margin: 0.4rem 0;
+}
+
+.fill {
+  background: #39c;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.orange .fill {
+  background: #f4a300;
 }
